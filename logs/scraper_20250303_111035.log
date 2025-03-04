@@ -1,0 +1,95 @@
+2025-03-03 11:10:35,386 - INFO - === PDF Scraping Script Started ===
+2025-03-03 11:10:35,386 - INFO - ====== WebDriver manager ======
+2025-03-03 11:10:35,558 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-03 11:10:35,633 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-03 11:10:35,704 - INFO - Driver [/Users/richarddonohue/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-03 11:10:36,510 - INFO - Accessing webpage: https://www.dicapi.mil.pe/ifc-latam-peru/publicaciones/semanal
+2025-03-03 11:10:46,498 - INFO - Screenshot saved: logs/screenshots/initial_page_20250303_111045.png
+2025-03-03 11:10:46,502 - INFO - Page title: DICAPI - IFC LATAM PERÚ - Publicaciones
+2025-03-03 11:10:46,502 - INFO - Current URL: https://www.dicapi.mil.pe/ifc-latam-peru/publicaciones/semanal
+2025-03-03 11:10:46,506 - INFO - Found 3 accordion items
+2025-03-03 11:10:46,506 - INFO - Attempting to expand accordion 1...
+2025-03-03 11:10:46,516 - INFO - Accordion 1 button text: 2025
+2025-03-03 11:10:46,519 - INFO - Clicking to expand accordion 1
+2025-03-03 11:10:49,510 - INFO - Screenshot saved: logs/screenshots/accordion_1_expanded_20250303_111048.png
+2025-03-03 11:10:49,510 - INFO - Attempting to expand accordion 2...
+2025-03-03 11:10:49,516 - INFO - Accordion 2 button text: 2024
+2025-03-03 11:10:49,518 - INFO - Clicking to expand accordion 2
+2025-03-03 11:10:52,447 - INFO - Screenshot saved: logs/screenshots/accordion_2_expanded_20250303_111051.png
+2025-03-03 11:10:52,448 - INFO - Attempting to expand accordion 3...
+2025-03-03 11:10:52,453 - INFO - Accordion 3 button text: 2023
+2025-03-03 11:10:52,455 - INFO - Clicking to expand accordion 3
+2025-03-03 11:10:55,387 - INFO - Screenshot saved: logs/screenshots/accordion_3_expanded_20250303_111054.png
+2025-03-03 11:10:55,387 - INFO - Looking for 'Ver más publicaciones' buttons...
+2025-03-03 11:10:55,396 - INFO - Found 3 potential 'Ver más publicaciones' buttons
+2025-03-03 11:10:55,399 - INFO - Button 1 text: ''
+2025-03-03 11:10:55,401 - INFO - Button 2 text: ''
+2025-03-03 11:10:55,404 - INFO - Button 3 text: 'Ver Más Publicaciones'
+2025-03-03 11:10:55,404 - INFO - Successfully clicked 0 'Ver más publicaciones' buttons
+2025-03-03 11:10:55,404 - INFO - Extracting PDF links...
+2025-03-03 11:10:55,408 - INFO - Found 18 links with .pdf extension
+2025-03-03 11:10:55,415 - INFO - PDF link 1: https://www.dicapi.mil.pe/storage/ifc-documents/s14OyWev1726520919.pdf - 'Unnamed PDF 1'
+2025-03-03 11:10:55,418 - INFO - PDF link 2: https://www.dicapi.mil.pe/storage/ifc-documents/en/y9eCYju01726520919.pdf - 'Unnamed PDF 2'
+2025-03-03 11:10:55,422 - INFO - PDF link 3: https://www.dicapi.mil.pe/storage/ifc-documents/1n34BINv1726520275.pdf - 'Unnamed PDF 3'
+2025-03-03 11:10:55,425 - INFO - PDF link 4: https://www.dicapi.mil.pe/storage/ifc-documents/en/U6g20QUf1726520275.pdf - 'Unnamed PDF 4'
+2025-03-03 11:10:55,430 - INFO - PDF link 5: https://www.dicapi.mil.pe/storage/ifc-documents/FDc4tYjq1726519946.pdf - 'Unnamed PDF 5'
+2025-03-03 11:10:55,448 - INFO - PDF link 6: https://www.dicapi.mil.pe/storage/ifc-documents/en/lmiyX2Sb1726519946.pdf - 'Unnamed PDF 6'
+2025-03-03 11:10:55,452 - INFO - PDF link 7: https://www.dicapi.mil.pe/storage/ifc-documents/s14OyWev1726520919.pdf - 'Unnamed PDF 7'
+2025-03-03 11:10:55,456 - INFO - PDF link 8: https://www.dicapi.mil.pe/storage/ifc-documents/en/y9eCYju01726520919.pdf - 'Unnamed PDF 8'
+2025-03-03 11:10:55,459 - INFO - PDF link 9: https://www.dicapi.mil.pe/storage/ifc-documents/1n34BINv1726520275.pdf - 'Unnamed PDF 9'
+2025-03-03 11:10:55,464 - INFO - PDF link 10: https://www.dicapi.mil.pe/storage/ifc-documents/en/U6g20QUf1726520275.pdf - 'Unnamed PDF 10'
+2025-03-03 11:10:55,467 - INFO - PDF link 11: https://www.dicapi.mil.pe/storage/ifc-documents/FDc4tYjq1726519946.pdf - 'Unnamed PDF 11'
+2025-03-03 11:10:55,471 - INFO - PDF link 12: https://www.dicapi.mil.pe/storage/ifc-documents/en/lmiyX2Sb1726519946.pdf - 'Unnamed PDF 12'
+2025-03-03 11:10:55,478 - INFO - PDF link 13: https://www.dicapi.mil.pe/storage/ifc-documents/s14OyWev1726520919.pdf - 'Descargar en
+ESPAÑOL'
+2025-03-03 11:10:55,486 - INFO - PDF link 14: https://www.dicapi.mil.pe/storage/ifc-documents/en/y9eCYju01726520919.pdf - 'Descargar en
+INGLÉS'
+2025-03-03 11:10:55,492 - INFO - PDF link 15: https://www.dicapi.mil.pe/storage/ifc-documents/1n34BINv1726520275.pdf - 'Descargar en
+ESPAÑOL'
+2025-03-03 11:10:55,500 - INFO - PDF link 16: https://www.dicapi.mil.pe/storage/ifc-documents/en/U6g20QUf1726520275.pdf - 'Descargar en
+INGLÉS'
+2025-03-03 11:10:55,506 - INFO - PDF link 17: https://www.dicapi.mil.pe/storage/ifc-documents/FDc4tYjq1726519946.pdf - 'Descargar en
+ESPAÑOL'
+2025-03-03 11:10:55,514 - INFO - PDF link 18: https://www.dicapi.mil.pe/storage/ifc-documents/en/lmiyX2Sb1726519946.pdf - 'Descargar en
+INGLÉS'
+2025-03-03 11:10:55,514 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/s14OyWev1726520919.pdf
+2025-03-03 11:10:58,689 - INFO - Successfully downloaded: s14OyWev1726520919.pdf
+2025-03-03 11:10:59,695 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/en/y9eCYju01726520919.pdf
+2025-03-03 11:11:01,211 - INFO - Successfully downloaded: y9eCYju01726520919.pdf
+2025-03-03 11:11:02,218 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/1n34BINv1726520275.pdf
+2025-03-03 11:11:04,174 - INFO - Successfully downloaded: 1n34BINv1726520275.pdf
+2025-03-03 11:11:05,180 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/en/U6g20QUf1726520275.pdf
+2025-03-03 11:11:06,802 - INFO - Successfully downloaded: U6g20QUf1726520275.pdf
+2025-03-03 11:11:07,805 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/FDc4tYjq1726519946.pdf
+2025-03-03 11:11:09,790 - INFO - Successfully downloaded: FDc4tYjq1726519946.pdf
+2025-03-03 11:11:10,793 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/en/lmiyX2Sb1726519946.pdf
+2025-03-03 11:11:12,310 - INFO - Successfully downloaded: lmiyX2Sb1726519946.pdf
+2025-03-03 11:11:13,314 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/s14OyWev1726520919.pdf
+2025-03-03 11:11:15,452 - INFO - Successfully downloaded: s14OyWev1726520919.pdf
+2025-03-03 11:11:16,457 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/en/y9eCYju01726520919.pdf
+2025-03-03 11:11:17,973 - INFO - Successfully downloaded: y9eCYju01726520919.pdf
+2025-03-03 11:11:18,979 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/1n34BINv1726520275.pdf
+2025-03-03 11:11:21,116 - INFO - Successfully downloaded: 1n34BINv1726520275.pdf
+2025-03-03 11:11:22,121 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/en/U6g20QUf1726520275.pdf
+2025-03-03 11:11:23,712 - INFO - Successfully downloaded: U6g20QUf1726520275.pdf
+2025-03-03 11:11:24,718 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/FDc4tYjq1726519946.pdf
+2025-03-03 11:11:26,776 - INFO - Successfully downloaded: FDc4tYjq1726519946.pdf
+2025-03-03 11:11:27,781 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/en/lmiyX2Sb1726519946.pdf
+2025-03-03 11:11:29,347 - INFO - Successfully downloaded: lmiyX2Sb1726519946.pdf
+2025-03-03 11:11:30,353 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/s14OyWev1726520919.pdf
+2025-03-03 11:11:39,903 - INFO - Successfully downloaded: s14OyWev1726520919.pdf
+2025-03-03 11:11:40,905 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/en/y9eCYju01726520919.pdf
+2025-03-03 11:11:42,445 - INFO - Successfully downloaded: y9eCYju01726520919.pdf
+2025-03-03 11:11:43,450 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/1n34BINv1726520275.pdf
+2025-03-03 11:11:48,073 - INFO - Successfully downloaded: 1n34BINv1726520275.pdf
+2025-03-03 11:11:49,079 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/en/U6g20QUf1726520275.pdf
+2025-03-03 11:11:50,486 - INFO - Successfully downloaded: U6g20QUf1726520275.pdf
+2025-03-03 11:11:51,492 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/FDc4tYjq1726519946.pdf
+2025-03-03 11:11:53,614 - INFO - Successfully downloaded: FDc4tYjq1726519946.pdf
+2025-03-03 11:11:54,620 - INFO - Downloading PDF: https://www.dicapi.mil.pe/storage/ifc-documents/en/lmiyX2Sb1726519946.pdf
+2025-03-03 11:11:56,001 - INFO - Successfully downloaded: lmiyX2Sb1726519946.pdf
+2025-03-03 11:11:57,006 - INFO - Downloaded 18 out of 18 PDFs
+2025-03-03 11:11:57,958 - INFO - Screenshot saved: logs/screenshots/final_state_20250303_111157.png
+2025-03-03 11:11:57,959 - INFO - Saved 18 URLs to logs/pdf_urls_20250303_111157.json
+2025-03-03 11:11:58,055 - INFO - WebDriver closed
+2025-03-03 11:11:58,056 - INFO - === PDF Scraping Completed in 0:01:22.669448 ===

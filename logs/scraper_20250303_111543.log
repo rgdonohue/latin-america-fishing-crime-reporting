@@ -1,0 +1,115 @@
+2025-03-03 11:15:43,172 - INFO - === PDF Scraping Script Started ===
+2025-03-03 11:15:43,172 - INFO - ====== WebDriver manager ======
+2025-03-03 11:15:43,328 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-03 11:15:43,428 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-03 11:15:43,496 - INFO - Driver [/Users/richarddonohue/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-03 11:15:44,504 - INFO - Accessing webpage: https://www.dicapi.mil.pe/ifc-latam-peru/publicaciones/semanal
+2025-03-03 11:15:57,403 - INFO - Screenshot saved: logs/screenshots/initial_page_20250303_111556.png
+2025-03-03 11:15:57,409 - INFO - Page title: DICAPI - IFC LATAM PERÚ - Publicaciones
+2025-03-03 11:15:57,410 - INFO - Current URL: https://www.dicapi.mil.pe/ifc-latam-peru/publicaciones/semanal
+2025-03-03 11:15:57,414 - INFO - Found 3 accordion items
+2025-03-03 11:15:57,414 - INFO - Attempting to expand accordion 1...
+2025-03-03 11:15:57,424 - INFO - Accordion 1 button text: 2025
+2025-03-03 11:15:57,427 - INFO - Clicking to expand accordion 1
+2025-03-03 11:16:00,404 - INFO - Screenshot saved: logs/screenshots/accordion_1_expanded_20250303_111559.png
+2025-03-03 11:16:00,404 - INFO - Attempting to expand accordion 2...
+2025-03-03 11:16:00,409 - INFO - Accordion 2 button text: 2024
+2025-03-03 11:16:00,411 - INFO - Clicking to expand accordion 2
+2025-03-03 11:16:03,327 - INFO - Screenshot saved: logs/screenshots/accordion_2_expanded_20250303_111602.png
+2025-03-03 11:16:03,327 - INFO - Attempting to expand accordion 3...
+2025-03-03 11:16:03,333 - INFO - Accordion 3 button text: 2023
+2025-03-03 11:16:03,334 - INFO - Clicking to expand accordion 3
+2025-03-03 11:16:06,274 - INFO - Screenshot saved: logs/screenshots/accordion_3_expanded_20250303_111605.png
+2025-03-03 11:16:06,274 - INFO - Load more attempt 1/20...
+2025-03-03 11:16:06,280 - INFO - Found 0 unique URLs before clicking load more
+2025-03-03 11:16:06,288 - INFO - Found 6 potential 'Ver más publicaciones' buttons
+2025-03-03 11:16:06,291 - INFO - Button 1 text: ''
+2025-03-03 11:16:06,294 - INFO - Button 2 text: ''
+2025-03-03 11:16:06,296 - INFO - Button 3 text: 'Ver Más Publicaciones'
+2025-03-03 11:16:06,297 - INFO - Clicking 'Ver más publicaciones' button 3...
+2025-03-03 11:16:10,223 - INFO - Screenshot saved: logs/screenshots/after_load_more_1_3_20250303_111609.png
+2025-03-03 11:16:10,227 - ERROR - Error clicking button 4: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000104ecc2d4 cxxbridge1$str$ptr + 2739836
+1   chromedriver                        0x0000000104ec4934 cxxbridge1$str$ptr + 2708700
+2   chromedriver                        0x0000000104a25f90 cxxbridge1$string$len + 93360
+3   chromedriver                        0x0000000104a2bc9c cxxbridge1$string$len + 117180
+4   chromedriver                        0x0000000104a2dd74 cxxbridge1$string$len + 125588
+5   chromedriver                        0x0000000104a2de1c cxxbridge1$string$len + 125756
+6   chromedriver                        0x0000000104a67e04 cxxbridge1$string$len + 363300
+7   chromedriver                        0x0000000104a6257c cxxbridge1$string$len + 340636
+8   chromedriver                        0x0000000104aade80 cxxbridge1$string$len + 650144
+9   chromedriver                        0x0000000104a61060 cxxbridge1$string$len + 335232
+10  chromedriver                        0x0000000104e94c38 cxxbridge1$str$ptr + 2512864
+11  chromedriver                        0x0000000104e97f58 cxxbridge1$str$ptr + 2525952
+12  chromedriver                        0x0000000104e7a578 cxxbridge1$str$ptr + 2404640
+13  chromedriver                        0x0000000104e98818 cxxbridge1$str$ptr + 2528192
+14  chromedriver                        0x0000000104e6af2c cxxbridge1$str$ptr + 2341588
+15  chromedriver                        0x0000000104eb4a60 cxxbridge1$str$ptr + 2643464
+16  chromedriver                        0x0000000104eb4be8 cxxbridge1$str$ptr + 2643856
+17  chromedriver                        0x0000000104ec45a8 cxxbridge1$str$ptr + 2707792
+18  libsystem_pthread.dylib             0x000000019042c2e4 _pthread_start + 136
+19  libsystem_pthread.dylib             0x00000001904270fc thread_start + 8
+
+2025-03-03 11:16:10,230 - ERROR - Error clicking button 5: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000104ecc2d4 cxxbridge1$str$ptr + 2739836
+1   chromedriver                        0x0000000104ec4934 cxxbridge1$str$ptr + 2708700
+2   chromedriver                        0x0000000104a25f90 cxxbridge1$string$len + 93360
+3   chromedriver                        0x0000000104a2bc9c cxxbridge1$string$len + 117180
+4   chromedriver                        0x0000000104a2dd74 cxxbridge1$string$len + 125588
+5   chromedriver                        0x0000000104a2de1c cxxbridge1$string$len + 125756
+6   chromedriver                        0x0000000104a67e04 cxxbridge1$string$len + 363300
+7   chromedriver                        0x0000000104a6257c cxxbridge1$string$len + 340636
+8   chromedriver                        0x0000000104aade80 cxxbridge1$string$len + 650144
+9   chromedriver                        0x0000000104a61060 cxxbridge1$string$len + 335232
+10  chromedriver                        0x0000000104e94c38 cxxbridge1$str$ptr + 2512864
+11  chromedriver                        0x0000000104e97f58 cxxbridge1$str$ptr + 2525952
+12  chromedriver                        0x0000000104e7a578 cxxbridge1$str$ptr + 2404640
+13  chromedriver                        0x0000000104e98818 cxxbridge1$str$ptr + 2528192
+14  chromedriver                        0x0000000104e6af2c cxxbridge1$str$ptr + 2341588
+15  chromedriver                        0x0000000104eb4a60 cxxbridge1$str$ptr + 2643464
+16  chromedriver                        0x0000000104eb4be8 cxxbridge1$str$ptr + 2643856
+17  chromedriver                        0x0000000104ec45a8 cxxbridge1$str$ptr + 2707792
+18  libsystem_pthread.dylib             0x000000019042c2e4 _pthread_start + 136
+19  libsystem_pthread.dylib             0x00000001904270fc thread_start + 8
+
+2025-03-03 11:16:10,232 - ERROR - Error clicking button 6: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000104ecc2d4 cxxbridge1$str$ptr + 2739836
+1   chromedriver                        0x0000000104ec4934 cxxbridge1$str$ptr + 2708700
+2   chromedriver                        0x0000000104a25f90 cxxbridge1$string$len + 93360
+3   chromedriver                        0x0000000104a2bc9c cxxbridge1$string$len + 117180
+4   chromedriver                        0x0000000104a2dd74 cxxbridge1$string$len + 125588
+5   chromedriver                        0x0000000104a2de1c cxxbridge1$string$len + 125756
+6   chromedriver                        0x0000000104a67e04 cxxbridge1$string$len + 363300
+7   chromedriver                        0x0000000104a6257c cxxbridge1$string$len + 340636
+8   chromedriver                        0x0000000104aade80 cxxbridge1$string$len + 650144
+9   chromedriver                        0x0000000104a61060 cxxbridge1$string$len + 335232
+10  chromedriver                        0x0000000104e94c38 cxxbridge1$str$ptr + 2512864
+11  chromedriver                        0x0000000104e97f58 cxxbridge1$str$ptr + 2525952
+12  chromedriver                        0x0000000104e7a578 cxxbridge1$str$ptr + 2404640
+13  chromedriver                        0x0000000104e98818 cxxbridge1$str$ptr + 2528192
+14  chromedriver                        0x0000000104e6af2c cxxbridge1$str$ptr + 2341588
+15  chromedriver                        0x0000000104eb4a60 cxxbridge1$str$ptr + 2643464
+16  chromedriver                        0x0000000104eb4be8 cxxbridge1$str$ptr + 2643856
+17  chromedriver                        0x0000000104ec45a8 cxxbridge1$str$ptr + 2707792
+18  libsystem_pthread.dylib             0x000000019042c2e4 _pthread_start + 136
+19  libsystem_pthread.dylib             0x00000001904270fc thread_start + 8
+
+2025-03-03 11:16:10,232 - INFO - Clicked 1 buttons in attempt 1
+2025-03-03 11:16:12,238 - INFO - Load more attempt 2/20...
+2025-03-03 11:16:12,250 - INFO - No new links found after attempt 1. Stopping.
+2025-03-03 11:16:12,250 - INFO - Total 'Ver más publicaciones' buttons clicked across all attempts: 1
+2025-03-03 11:16:12,250 - INFO - Extracting PDF links...
+2025-03-03 11:16:12,257 - INFO - Found 0 links with .pdf extension
+2025-03-03 11:16:12,267 - INFO - Found 0 links with 'https://www.dicapi.mil.pe/storage/ifc-documents/' pattern
+2025-03-03 11:16:12,267 - INFO - Found 0 unique PDF links
+2025-03-03 11:16:12,267 - INFO - Downloaded 0 out of 0 PDFs
+2025-03-03 11:16:13,228 - INFO - Screenshot saved: logs/screenshots/final_state_20250303_111612.png
+2025-03-03 11:16:13,228 - WARNING - No URLs to save
+2025-03-03 11:16:13,309 - INFO - WebDriver closed
+2025-03-03 11:16:13,309 - INFO - === PDF Scraping Completed in 0:00:30.137130 ===
