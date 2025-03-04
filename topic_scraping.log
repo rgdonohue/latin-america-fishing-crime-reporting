@@ -1,0 +1,9 @@
+2025-03-04 07:05:30,509 - INFO - Loading data files...
+2025-03-04 07:05:30,582 - INFO - Processing citations to find topic matches...
+2025-03-04 07:05:32,485 - INFO - Updating topics with new URLs...
+2025-03-04 07:05:32,489 - INFO - Topics updated and saved to data-output/Topics_updated.csv
+2025-03-04 07:05:32,489 - INFO - Topic 'IUU': Found 397 URLs
+2025-03-04 07:05:32,489 - INFO - Topic 'fishmeal': Found 0 URLs
+2025-03-04 07:05:32,489 - INFO - Topic 'Trafficking': Found 473 URLs
+2025-03-04 07:05:32,489 - INFO - Topic 'Fishing': Found 424 URLs
+2025-03-04 07:05:32,489 - INFO - Topic 'ship': Found 1388 URLs
