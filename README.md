@@ -16,7 +16,7 @@ The Maritime Information Fusion Centre publishes weekly crime reports for severa
 
 1. **HTML Source Collection:**
    - The HTML source files in the source directory were manually copied from the webpage
-   - This was done by loading the webpage for each year (2023, 2024, 2025) and using "load more" repeatedly to access all available links
+   - This was done by loading the webpage for each year (2023, 2024) and using "load more" repeatedly to access all available links
    - The complete HTML for each year was saved to `source/source-{year}.html`
 
 2. **PDF URL Extraction:**
@@ -34,9 +34,9 @@ The Maritime Information Fusion Centre publishes weekly crime reports for severa
    - These citation URLs are saved to `output/citation_urls.csv` for further processing
 
 5. **Web Content Scraping:**
-   - The system scrapes the full HTML content from all 3,835 crime report web pages
+   - The system scrapes the HTML content from citation URLs found in the PDFs
    - Each page is downloaded and its content stored for analysis
-   - This creates a comprehensive database of crime report content
+   - This creates a database of crime report content for searching
 
 ### **Data Processing**
 
@@ -47,13 +47,12 @@ The processing pipeline includes:
    - The script identifies mentions of specific entities:
      - FMFO plants (by name)
      - Topics of interest
-     - Vessels (by name, IMO, or registration number)
+     - Vessels by name
      - Vessel owners
 
 2. **Entity Matching:**
-   - Cleaning and normalizing entity names (removing "S.A.", "S.R.L.", etc.)
-   - Fuzzy matching to account for spelling variations
-   - Contextual analysis to reduce false positives
+   - Direct string matching against the provided entity lists
+   - Matches are case-insensitive to catch variations in capitalization
 
 3. **Result Compilation:**
    - Matches are recorded along with the URL to the original crime report
@@ -94,11 +93,8 @@ The final deliverable is the `FMFO_Plants_and_Ships_in_Latin_America_Crime_Links
 
 ## **Next Steps**
 
-Complete the PDF text extraction functionality
-
-Implement entity matching against the provided list
-
-Create the final spreadsheet output with all required tabs
-
-Document the complete process and results
+- Improve search accuracy with fuzzy matching capabilities
+- Expand entity detection to identify more contextual references
+- Add NLP processing to extract additional information from reports
+- Create visualization tools for trend analysis
 
